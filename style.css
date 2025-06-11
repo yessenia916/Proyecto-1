@@ -1,0 +1,129 @@
+
+    nav{
+     width:100%;
+     text-align:center;
+     background-color:#FFFFFF;
+       }
+    nav a {
+        color: #75163F;
+        font-family: roboto;
+        text-decoration: none;
+        border-radius: 10px;
+        transition: background-color 2s, color 2s;
+        font-size: 1.5em;
+        display: inline-block;
+        margin: 1.5px;
+        padding: 5px 5px;
+        background-color: #C0C0C0;
+
+          }
+    nav a:hover {
+        color: black;/* color al pasar el cursor*/
+         }
+    
+    
+     body {
+          background-image: url(lana.jpg);
+          background-size: cover;
+          }
+    section {
+            background-color:#C0C0C0;
+            color: #000000;
+            text-align: center;
+            width:50%;
+            margin:auto;
+            margin-top: 25px;
+            font-family: trebuchet ms;
+            margin: 50px auto; 
+            padding: 10px; /* margen para el texto */
+            border-radius: 10px; /*borde del cuadro*/
+    
+            
+            }
+    .logo h1 {
+            font-size: 3.5em;
+            font-family: papyrus;
+            }
+   .logo p {
+           font-size: 1.2em;
+           font-family: garamond;
+           }
+    header {
+           color:#FFFFFF; /* Color del texto del encabezado */        
+           background-color:#661637; /* Color de fondo */
+           text-align:center; /* Alineación de texto */
+           font-family: trebuchet ms;} /* Fuente */
+
+           .container-form {
+               background-color: rgb(255, 127, 127);
+               width:100%;
+               max-width: 1100px;
+               margin:auto;
+               display:grid;
+               grid-template-columns: repeat(2,1fr);
+               grid-gap: 50px;
+               margin-top: 90px;
+           }
+
+           .container-form h2 {
+              margin-bottom: 15px;
+              font-size: 35px;
+           }
+
+           .container-form p {
+               font-size: 17px;
+               line-height: 1.6;
+               margin-bottom: 30px;
+           }
+
+           .container-form a {
+               font-size: 17px;
+               display: inline-block;
+               text-decoration: none;
+               color: black;
+               width: 100%;
+               margin-bottom: 15px;
+               font-weight: 700;
+           }
+
+           .container-form form .campo, textarea{
+               width: 100%;
+               padding: 15px 10px;
+               font-size: 15px;
+               border: 1px solid #dbdbdb;
+               margin-bottom: 20px;
+               border-radius: 3px;
+               outline: 0px;
+           }
+
+           .container-form form textarea{
+               max-width: 530px;
+               min-width: 530px;
+               min-height: 140px;
+               max-height: 150px;
+           }
+
+           .container-form .btn-enviar {
+            padding: 15px;
+            font-size: 16px;
+            border: none;
+            background: rgba(205, 68, 58, 0.721);
+            color: white;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: all 300ms ease;
+           }
+
+           .container-form .btn-enviar:hover{
+            color: white;
+            background: plum;
+           }
+
+
+
+
+
+
+           
+   
+  
